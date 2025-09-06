@@ -1,73 +1,58 @@
-# 🟦 Projekty z Javy – Języki Programowania (PWr)
-
-Repozytorium zawiera zestaw **6 projektów w języku Java**, zrealizowanych w ramach przedmiotu "Języki programowania" na Politechnice Wrocławskiej (rok akademicki 2024/25).  
-Każdy projekt znajduje się w osobnym folderze i prezentuje inne aspekty programowania w Javie – od podstawowej logiki, przez GUI, aż po programowanie współbieżne i komunikację sieciową.
-
----
-
-## 📂 Struktura repozytorium
-projekt1/ # Kompilacja IDE/CLI
-projekt2/ # Pętle, instrukcje warunkowe, wyjątki
-projekt3/ # Kontenery danych
-projekt4/ # GUI (Swing, JavaFX)
-projekt5/ # Programowanie współbieżne
-projekt6/ # Gniazda TCP/IP + RMI
+🟦 Java Projects – Programming Languages (Wrocław University of Science and Technology)
+This repository contains a set of 6 Java projects developed as part of the Programming Languages course at Wrocław University of Science and Technology (academic year 2024/25).
+Each project is located in a separate folder and showcases different aspects of Java programming – from basic logic, through GUI, up to concurrent programming and network communication.
 
 ---
 
-## 📘 Opis projektów
-
-### 2. Pętle, instrukcje warunkowe, wyjątki
-**Temat:** inteligentny system wspomagający konferencje branżowe.  
-- Implementacja metaheurystycznego algorytmu przydziału zasobów.  
-- Zastosowanie **algorytmu genetycznego** do przypisywania uczestnikom konferencji innych osób o podobnych zainteresowaniach.  
-- Obsługa wyjątków i walidacja danych wejściowych.  
-
----
-
-### 3. Kontenery danych
-**Temat:** uproszczony system przepływu feedbacku w firmie.  
-- Implementacja logiki biznesowej oddzielonej od interfejsu tekstowego (separacja warstw).  
-- Walidacja danych i obsługa błędów.  
-- Aplikacja kompilowana i uruchamiana jako **plik JAR**.  
+📂 Repository Structure
+project1/ # IDE/CLI compilation
+project2/ # Loops, conditionals, exceptions
+project3/ # Data containers
+project4/ # GUI (Swing, JavaFX)
+project5/ # Concurrent programming
+project6/ # TCP/IP sockets + RMI
 
 ---
 
-### 4. GUI (Swing, JavaFX)
-**Temat:** aplikacja typu *Fitness Tracker*.  
-- Graficzny interfejs użytkownika w Swing/JavaFX.  
-- Rejestracja wyników treningów oraz ich prezentacja na wykresach.  
-- Eksport jako wykonywalny **plik JAR**.  
+📘 Project Descriptions
+2. Loops, Conditionals, Exceptions
+Topic: Intelligent support system for industry conferences.
+Implementation of a metaheuristic resource allocation algorithm.
+Use of a genetic algorithm to match participants with others sharing similar interests.
+Exception handling and input validation.
+3. Data Containers
+Topic: Simplified feedback flow system in a company.
+Business logic separated from the text-based interface (layer separation).
+Data validation and error handling.
+Application compiled and run as a JAR file.
+4. GUI (Swing, JavaFX)
+Topic: Fitness Tracker application.
+Graphical user interface built with Swing/JavaFX.
+Recording workout results and displaying them in charts.
+Export as an executable JAR file.
+5. Concurrent Programming
+Topic: Visualization of Conway’s Game of Life.
+Thread synchronization using CountDownLatch.
+Implementation with two data structures:
+one for reading the board state,
+another for updating it.
+Structures swapped during thread synchronization.
+6. TCP/IP Sockets + RMI
+Topic: Tic-tac-toe game in a client-server architecture.
+RMI used for connecting players.
+Server responsible for game logic (pairing, state initialization, move exchange, I/O validation).
+Support for multiple simultaneous players (e.g., game rooms or session tokens).
+Player statistics (wins, draws, losses).
+Console logging of key events (pairing, errors, game end).
+
+---
+⚙️ Technologies
+Java 17
+Swing, JavaFX
+Threads & synchronization (CountDownLatch)
+TCP/IP, RMI
 
 ---
 
-### 5. Programowanie współbieżne
-**Temat:** wizualizacja gry **Game of Life** Johna Conway’a.  
-- Synchronizacja wątków przy użyciu **CountDownLatch**.  
-- Implementacja z dwiema strukturami danych:  
-  - pierwsza do odczytu stanu planszy,  
-  - druga do aktualizacji.  
-- Zamiana struktur przy synchronizacji wątków.  
-
----
-
-### 6. Gniazda TCP/IP + RMI
-**Temat:** gra w kółko i krzyżyk w architekturze klient-serwer.  
-- Wykorzystanie **RMI** do połączenia graczy.  
-- Serwer odpowiada za logikę gry (parowanie, inicjalizacja stanu, wymiana ruchów, walidacja I/O).  
-- Obsługa wielu graczy jednocześnie (np. poprzez pokoje gry lub tokeny sesji).  
-- Statystyki graczy (wygrane, remisy, porażki).  
-- Logowanie w konsoli kluczowych zdarzeń (parowanie, błędy, koniec gry).  
-
----
-
-## ⚙️ Technologie
-- Java 17  
-- Swing, JavaFX  
-- Wątki i synchronizacja (CountDownLatch)  
-- TCP/IP, RMI  
-
----
-
-## 📄 Licencja
-Projekt edukacyjny. Można używać do celów nauki i demonstracji.  
+📄 License
+Educational project. Free to use for learning and demonstration purposes.
