@@ -1,4 +1,4 @@
-🟦 Java Projects – Programming Languages (Wrocław University of Science and Technology)
+🟧 Java Projects – Programming Languages (Wrocław University of Science and Technology)
 This repository contains a set of 6 Java projects developed as part of the Programming Languages course at Wrocław University of Science and Technology (academic year 2024/25).
 Each project is located in a separate folder and showcases different aspects of Java programming – from basic logic, through GUI, up to concurrent programming and network communication.
 
